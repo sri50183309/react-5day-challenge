@@ -57,17 +57,36 @@
     ],
     "work": [
       {
-        "company": "Clever Programmer",
-        "title": "Team Member && React Specialist",
-        "years": "April 2020 - Present",
-        "description": "Teaching ReactJS to thousands of students."
+        "company": "Ford Motor Company",
+        "title": "Software Engg - Full Time",
+        "years": "September 2016 - Present",
+        "description": "A team player working on cloud based orchestration product, which is used by external and internal customers."
       },
       {
-        "company": "Lindar Media",
-        "title": "Software Engineer",
-        "years": "Nov 2019 - April 2020",
-        "description": "Building MrQ, a gambling website."
+        "company": "DTE Energy",
+        "title": "Consultant - Contract",
+        "years": "Mar 2016 - Septemer 2016",
+        "description": "Worked on back end layer and created apis to support various front end application web/IVR/CRM. Used for payment processing of monthly payments of customers"
+      },
+      {
+        "company": "General Motors",
+        "title": "Consultant - Contract",
+        "years": "Feb 2011 - Mar 2016, Sep 2006-Oct 2008",
+        "description": "Worked on a n tier based application, mainly used to interact with vehicles from back office. We will be trying out the program with few vehicles and see the output."
+      },
+      {
+        "company": "Campfire Interactive",
+        "title": "Programmer Analyst - Full time/Contract",
+        "years": "Oct 2006-Feb 2011",
+        "description": "Created a PLM based product used by OEM to predict the market share, and opportunity forecasting"
+      },
+      {
+        "company": "Various Companies in India",
+        "title": "Software Engg/System Analyst",
+        "years": "June 2000-Sep 2006",
+        "description": "Played various role inside a team and contributed to successfull prod launches with various clients"
       }
+
     ],
     "skills": [
       {
