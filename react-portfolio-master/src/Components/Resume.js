@@ -20,6 +20,11 @@ class Resume extends Component {
         var className = 'bar-expand '+skills.name.toLowerCase();
         return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       })
+
+      var softskills = this.props.data.softskills.map(function(skills){
+        var className = 'bar-expand '+skills.name.toLowerCase();
+        return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+      })
     }
 
     return (
@@ -64,13 +69,30 @@ class Resume extends Component {
             <p>{skillmessage}
             </p>
 
-				<div className="bars">
-				   <ul className="skills">
-					  {skills}
-					</ul>
-				</div>
-			</div>
+            <div className="bars">
+              <ul className="skills">
+                {skills}
+              </ul>
+            </div>
+       
+		  	</div>
       </div>
+      <div className="row soft skill">
+
+        <div className="three columns header-col">
+          <h1><span>Soft Skills</span></h1>
+        </div>
+
+        <div className="nine columns main-col">
+
+          <div className="bars">
+            <ul className="skills">
+              {softskills}
+            </ul>
+          </div>
+
+        </div>
+        </div>
    </section>
     );
   }

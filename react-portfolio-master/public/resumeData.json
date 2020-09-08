@@ -113,6 +113,20 @@
         "name": "AWS",
         "level": "30%"
       }
+    ],
+    "softskills": [
+      {
+        "name": "Technical Lead",
+        "level": "100%"
+      },
+      {
+        "name": "Product Management",
+        "level": "50%"
+      },
+      {
+        "name": "DevOps",
+        "level": "100%"
+      }
     ]
   },
   "portfolio": {
