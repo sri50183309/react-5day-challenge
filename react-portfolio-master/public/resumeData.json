@@ -134,13 +134,13 @@
       {
         "title": "COVID Tracking in flutter",
         "category": "A flutter based app for COVID Tracking",
-        "image": "whatsapp-mern.jpeg",
+        "image": "CovidTracking_InFlutter.jpeg",
         "url": "https://github.com/sri50183309/covidtracking"
       },
       {
         "title": "My learning on pythons",
         "category": "WebScrapping, DataScience libraries in python",
-        "image": "tiktok-mern.jpeg",
+        "image": "PythonBootCamp.jpeg",
         "url": "https://github.com/sri50183309/PythonBootCamp"
       }
     ]
