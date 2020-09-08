@@ -5,10 +5,12 @@ import Header from './Header'
 function App() {
   return (
     //BEM
-    <div className="app">
+    <div className="App">
       
-      <Header/>
-      {/* Home */}
+      {/*<h1>Hello Clever Programmers, let's build the amazon store :rock</h1>*/}
+      {/*Header*/}
+      <Header />
+      {/*Home*/}
     </div>
   );
 }
