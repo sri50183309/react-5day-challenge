@@ -1,0 +1,149 @@
+{
+  "main": {
+    "name": "Sriram Mahalingam",
+    "occupation": "Software Enginner @Ford Motor Company",
+    "description": "Full Stack Developer by Day, Freelancer by Night. #goreact",
+    "image": "Sriram_Mahalingam.jpeg",
+    "bio": "My name is Sriram Mahalingam, I'm a Software enginner, working on creating cloud friendly software applications. Currently working as a Software enginnering in Ford ",
+    "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
+    "email": "sriram.mahalignam@gmail.com",
+    "phone": "+1 248 631 6596",
+    "address": {
+      "street": "22555 Palace Ct, # 101",
+      "city": "Novi",
+      "state": "MI",
+      "zip": "ABC 123"
+    },
+    "website": "#",
+    "resumedownload": "#",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/sriram.mahalingam.9",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/sriram-m-aaa17217/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/srirammahalingam/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/sri50183309/",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "Birla Institute of Technology and Science ",
+        "degree": "Masters in Software Systems",
+        "graduated": "January 2006",
+        "description": "Graduated with Distinction"
+      },
+      {
+        "school": "Coimbatore Institute of Technology",
+        "degree": "Batchelor in Electronics and Communication Engg",
+        "graduated": "June 2000",
+        "description": "Graduated with Distinction"
+      }
+    ],
+    "work": [
+      {
+        "company": "Clever Programmer",
+        "title": "Team Member && React Specialist",
+        "years": "April 2020 - Present",
+        "description": "Teaching ReactJS to thousands of students."
+      },
+      {
+        "company": "Lindar Media",
+        "title": "Software Engineer",
+        "years": "Nov 2019 - April 2020",
+        "description": "Building MrQ, a gambling website."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Spring Boot with Java/Kotlin",
+        "level": "100%"
+      },
+      {
+        "name": "React",
+        "level": "30%"
+      },
+      {
+        "name": "Git",
+        "level": "100%"
+      },
+      {
+        "name": "Flutter",
+        "level": "20%"
+      },
+      {
+        "name": "Python",
+        "level": "20%"
+      },
+      {
+        "name": "AWS",
+        "level": "30%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "MERN Stack WhatsApp Clone",
+        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "image": "whatsapp-mern.jpeg",
+        "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
+      },
+      {
+        "title": "MERN Stack TikTok Clone",
+        "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "image": "tiktok-mern.jpeg",
+        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+      },
+      {
+        "title": "Facebook Clone with React",
+        "category": "Facebook Clone built with ReactJS",
+        "image": "facebook-clone.png",
+        "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
+      },
+      {
+        "title": "Airbnb Clone",
+        "category": "Facebook Clone built with ReactJS",
+        "image": "airbnb-clone.jpeg",
+        "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
+      },
+      {
+        "title": "Netflix Clone",
+        "category": "Facebook Clone built with ReactJS",
+        "image": "netflix-clone.jpeg",
+        "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Sriram Mahalingam is a very capable developer. He has his heart on the latest and greatest in the J2EE technology stacks with a knack for getting things done with speed and quality when working within tight deadlines. He easily fits into the role of the resource on your team who is willing to help with a smile and solve knotty problems with proven analytic capabilities. Thoroughly a team-oriented guy he can code as well as communicate a business problem with finesse. I would hire this guy if I get a chance.",
+        "user": "ilango gurusamy (From Linked In)"
+      },
+      {
+        "text": "Sriram is a quick learner and very keen to take on challenges. He is dependable and a good team player. I am sure he will do well in his career!",
+        "user": "User from Linked in"
+      },
+      {
+        "text": "I had a privilege to work with Sriram for an implementation of Documentum in integration with Struts for an Indian Government institution. We were a part of 2 different competencies within Satyam. The project had a huge team, first time integration of DCTM with struts, complex and colossal requirements coupled with government as a client. The project lasted for around 1.5 year and all along I found Sriram an inspiring personality. He had a quick grab of the most complex requirements and step by step provided a technical solution to it. He had demonstrated a great architectural capability in designing the solution and was a mentor / problem solver / go-getter for the team. At the fag end of the project he had a tremendous contribution in getting a buy in from the client and to close the project to the utmost satisfaction of the entire stakeholder. I will be always willing to work with him and wish him best in all his future endeavors.!",
+        "user": "User from Linked in"
+      }
+    ]
+  }
+}
