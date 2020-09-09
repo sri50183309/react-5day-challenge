@@ -7,11 +7,7 @@ function App() {
   return (
     //BEM
     <div className="App">
-      
-      {/*<h1>Hello Clever Programmers, let's build the amazon store :rock</h1>*/}
-      {/*Header*/}
       <Header />
-      {/*Home*/}
       <Home/>
     </div>
   );

@@ -4,19 +4,20 @@ import "./Product.css"
 function Product(){
     return(
         <div className="product">
-            <div className="product_info">
-                <p> The lean start up </p>
-                <p className="product_price"> 
-                    <small> $ </small>
-                    <small>19.99 </small>
-                </p>
-                <div className="product_rating"> 
-                    <p> * </p>
-                </div>
+        <div className="product__info">
+            <p>The lean startup</p>
+            <p className="product__price">
+                <small>$</small>
+                <strong>19.99</strong>
+            </p>
+            <div className="product__rating">
+                <p>🌟</p>
+                <p>🌟</p>
             </div>
-            <img src="https://images-na.ssl-images-amazon.com/images/I/81jgCiNJPUL._AC_UL600_SR393,600_.jpg" alt="Product Image"/> 
-            <button> Add to basket </button>
         </div>
+        <img src="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg" alt="Product image" />
+        <button>Add to Basket</button>
+    </div>
     )
 }
 
