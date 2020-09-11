@@ -20,7 +20,7 @@ function Header() {
       <Link to="/">
         <img
           className="header__logo"
-          src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+          src="http://www.bugtreat.com/blog/wp-content/uploads/2012/06/ecommerce-logo.jpg"
         />
       </Link>
 
