@@ -2,8 +2,13 @@ import React from 'react'
 import "./Subtotal.css"
 import CurrencyFormat from 'react-currency-format'
 import { useStateValue } from './StateProvider'
+import { useHistory } from 'react-router-dom'
 
 function Subtotal() {
+    const history = useHistory(); //Browser History , it will give
+    //history.push vs link (get a new link to browser)
+    //programatically push the user to somewhere , we will use history.push
+    // we dont want hyperlink
     const [{basket}] = useStateValue() // Pull the basket from useStateValue
 
     // Homework - Calculate basket total
@@ -29,7 +34,7 @@ function Subtotal() {
             thousandSeparator={true}
             prefix={"$"}
             />
-             <button>Proceed to Checkout</button>
+             <button onClick={e => history.push('/payment')}>Proceed to Checkout</button>
         </div>
     )
 }
