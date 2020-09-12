@@ -4,10 +4,15 @@ import Header from './Header'
 import Home from './Home';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
 import Checkout from './Checkout';
+import Orders from './Orders';
 import Login from './Login';
 import { auth } from './firebase';
 import { useStateValue } from "./StateProvider";
 import Payment from './Payment';
+import {loadStripe} from "@stripe/stripe-js";
+import {Elements} from "@stripe/react-stripe-js"
+
+const promise = loadStripe('pk_test_51HQJ8BBNC5WdoLWo5l72sR89ypC0VgfKWtV53b69R34tXejpcedtUQidhYxM3KTfI9CGnkAywcBJRbv7Ci3ZfJVz00V563AYSC')
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -38,20 +43,28 @@ function App() {
        
 
         <Switch>
+        <Route path="/orders"> 
+                <Header />
+                <Orders/>
+          </Route>
         <Route path="/login"> 
-            <Login/>
+                <Login/>
           </Route>
           <Route path="/checkout"> 
-          <Header />
-            <Checkout/>
+                <Header />
+                  <Checkout/>
           </Route>
           <Route path="/payment"> 
-          <Header />
-            <Payment />
+              <Header />
+              {/* Pass highder order promise */}
+              <Elements stripe={promise}>
+                <Payment />
+              </Elements>
+                
           </Route>
           <Route path="/"> 
-          <Header />
-            <Home/>
+                <Header />
+                  <Home/>
           </Route>
 
         </Switch>
