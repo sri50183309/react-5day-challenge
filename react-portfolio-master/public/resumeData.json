@@ -148,6 +148,12 @@
         "category": "File Upload Utility",
         "image": "Java_GUI_FileUpload.jpeg",
         "url": "https://github.com/sri50183309/FDTRepository"
+      },
+      {
+        "title": "COVID Tracking React App",
+        "category": "React end to end",
+        "image": "react-covid-tracker.png",
+        "url": "https://covid-19-tracker-796f6.web.app/"
       }
     ]
   },
